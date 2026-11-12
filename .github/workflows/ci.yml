@@ -566,7 +566,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Cache wasm-pack tarball
         uses: actions/cache@v6
@@ -650,7 +650,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Cache wasm-pack tarball
         uses: actions/cache@v6
